@@ -22,7 +22,7 @@ h1 {
 }
 .hero{
     text-align: center;
-    padding: 160px 30px;
+    padding: 60px 30px;
     background-color: var(--primary-color);
 }
 
