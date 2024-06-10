@@ -98,6 +98,7 @@ h1 {
 }
 .nav{
     padding: 20px 0px;
+    box-shadow: var(--box-shadow);
 }
 .nav-item
 {
