@@ -75,17 +75,17 @@ h1 {
     box-shadow: var(--box-shadow);
     color: white;
 }
-.about-section {
-    padding: 80px 20px;
+.content-container {
+    padding: 120px 20px;
 }
-.about-section-content {
+.content {
     margin: 30px;
 }
-.about-section h1 {
+.content-container h1 {
     font-size: 48px;
     line-height: 60px;
 }
-.about-section h2 {
+.content-container h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
     font-style: italic;
