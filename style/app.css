@@ -55,8 +55,8 @@ h1 {
     padding: 15px 30px;
 }
 .btn-branding-outline {
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
@@ -76,7 +76,7 @@ h1 {
     color: white;
 }
 .content-container {
-    padding: 120px 20px;
+    padding: 40px 20px;
 }
 .content {
     margin: 30px;
@@ -99,11 +99,15 @@ h1 {
 .nav{
     padding: 20px 0px;
 }
-
+.nav-item
+{
+    padding: 0 50px;
+}
 .logo{
     max-height: 40px;
     max-width: 150px;
 }
+
 @media (max-width: 600px) {
     h1 {
         font-size: 38px;
