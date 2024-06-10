@@ -105,10 +105,18 @@ h1 {
     padding: 0 50px;
 }
 
-nav a:hover,
-nav li.active a {
-    color: var(--primary-color);
+.nav-link:focus {
+    color: var(--secondary-color) !important;
 }
+
+        .nav-link.active {
+            color: var(--secondary-color) !important;
+            font-weight: bold;
+        }
+                        .nav-link:hover {
+                            color: var(--secondary-color) !important;
+                            text-decoration: underline;
+                        }
 .logo{
     max-height: 40px;
     max-width: 150px;
